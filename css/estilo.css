@@ -55,6 +55,7 @@
 
 h1,
 h2,
+h3,
 .sub {
     text-align: center;
 }
@@ -109,15 +110,89 @@ footer,
 }
 
 .inpt {
-    width: 60%;
+    width: 100%;
+    height: 40px;
     box-shadow: 6px 4px 6px;
 }
 
 .btn-env {
     box-shadow: 6px 4px 6px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+       
+}
+
+.botaoseta
+{
+    display: flex;
 }
 
 .formasdepagamento {
     color: #1577fd;
     margin-bottom: 0;
+}
+.val-oferta
+{
+    color: red;
+}
+.border-img
+{
+    border-radius: 15px;
+}
+i
+{
+    font-size: 25px;
+}
+.contatos
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-cont
+{
+    
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+}
+.mb-3
+{
+    margin: 10px 35% 20px 35%;
+    align-items: center;
+    font-weight: bold;
+}
+.btn-envio
+{
+    width: 100px;
+    align-items: center;
+    margin: 10px 35% 20px 35%;
+    background-color:  #1577fd;
+    color: #ffff;
+    border-radius: 5px;
+}
+.carousel-inner
+{
+    width: 100%;
+    height: 28rem;
+    overflow: hidden;
+}
+.carousel-inner img
+{
+    width: 100%;
+    height: 28rem;    
+}
+.carousel-caption
+{
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+}
+.seta
+{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: block;
 }

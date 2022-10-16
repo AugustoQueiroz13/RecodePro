@@ -4,6 +4,7 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <meta charset="UTF-8">
     <title>ViajaKi</title>
     <link rel="stylesheet" href="./css/estilo.css">
@@ -26,7 +27,7 @@
                             <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Destinos</a>
+                            <a class="nav-link" href="destinos.html">Destinos</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="destinos.html" role="button"
@@ -56,33 +57,44 @@
         </nav>
     </table>
     <!--Fim Menu-->
-    <div class="titulo-fundo"><h1>ViajaKi - Sua Agência de Viagens</h1>
+    <div class="titulo-fundo">
+        <h1>Contato</h1>
     </div>
     <div class="sub">
-    <span>Aqui você encontra os <strong>melhores</strong> destinos para sua viagem!</span>
+        <span>Ficou alguma dúvida? Fale conosco agora!</span>
     </div>
-    <h2>Contato</h2>
+    <h2>Entre em contato conosco</h2>
     <hr>
+    <!--Formulário-->
+    <div class="form-cont">
+        <div class="mb-3"> <label for="exampleFormControlInput1" class="form-label">Nome</label> <input type="email"
+                class="form-control" id="exampleFormControlInput1" placeholder="Seu nome aqui"></div>
+        <div class="mb-3"> <label for="exampleFormControlInput1" class="form-label">E-mail</label> <input type="email"
+                class="form-control" id="exampleFormControlInput1" placeholder="nome@email.com"></div>
+        <div class="mb-3"> <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label> <textarea
+                class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></div>
+        <div class="col-12">
+            <button type="submit" class="btn-envio" onclick="resposta()" value="Exibir alert">Enviar</button>
+        </div>
+    </div>
     <table border="0" width="100%" cellpadding="20">
-<tr>
-    <td width="50%" align="center">
-        <img src="./imagens/email-icon.png" width="10%">
-        <font face="Arial" size="4">contato@viajaki.com</font>
-    </td>
-    <td width="50%" align="center">
-        <img src="./imagens/WhatsApp-Logo.png" width="20%">
-        <font face="Arial" size="4">(21) 99999-9999</font>
-    </td>
-</tr>
+        <tr>
+            <td align="center">
+                <i class="bi bi-envelope-paper"><span class="contatos"> contato@viajaki.com</span></i>
+            </td>
+            <td align="center">
+                <i class="bi bi-whatsapp" size="100px"> <span class="contatos">(21) 99999-9999</span></i>
+            </td>
+            <td align="center">
+                <i class="bi bi-facebook" size="100px"><span class="contatos"> ViajaKi</span></i>
+            </td>
+            <td align="center">
+                <i class="bi bi-instagram" size="100px"><span class="contatos"> ViajaKiOficial</span></i>
+            </td>
+        </tr>
     </table>
-    <form>
-        <h4>Nome:</h4>
-        <input type="text" style="width: 400px;" placeholder="Digite aqui seu nome"><br>
-        <textarea style="width: 400px" placeholder="Digite aqui sua mensagem"></textarea><br>
 
-        <input type="submit">
-    
-    </form>
+    <!--FimFormulário-->
     <div class="info-fim">
         <div class="fim-pt1">
             <h6><strong>Contato</strong></h6>
@@ -97,7 +109,10 @@
         <div class="fim-pt2">
             <h6><strong>Newsletter</strong></h6>
             <label>Receba ofertas exclusivas por email:</label>
-            <input class="inpt" type="email" placeholder="Digite seu e-mail"><button class="btn-env" type="submit">Assinar</button>
+            <div class="botaoseta">
+            <input class="inpt" type="email" placeholder="Digite seu e-mail"><button class="btn-env" type="submit">
+                <i class="bi bi-arrow-right-short seta"></i></button>
+                </div>
         </div>
     </div>
     <footer>
@@ -113,6 +128,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

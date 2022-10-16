@@ -4,95 +4,217 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <meta charset="UTF-8">
     <title>ViajaKi</title>
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
 
 <body>
-    <!--Menu-->
-    <table width="100%" class="menu">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="./imagens/logo.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Destinos</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="destinos.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Promoções
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="destinos.html">Passagens</a></li>
-                                <li><a class="dropdown-item" href="promocoes.html">Pacotes de Viagem</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Hotéis</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contato.html">Contato</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Digite o lugar dos seus sonhos"
-                            aria-label="Search">
-                        <button class="btn btn-search" type="submit">Busque seu destino</button>
-                    </form>
-                </div>
+   <!--Menu-->
+   <table width="100%" class="menu">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="./imagens/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinos.html">Destinos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="destinos.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Promoções
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="destinos.html">Passagens</a></li>
+                            <li><a class="dropdown-item" href="promocoes.html">Pacotes de Viagem</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Hotéis</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Digite o lugar dos seus sonhos"
+                        aria-label="Search">
+                    <button class="btn btn-search" type="submit">Busque seu destino</button>
+                </form>
             </div>
-        </nav>
-    </table>
-    <h2>Nossas Lojas</h2>
-    <hr>
-    <table border=0 width="100%" cellpadding="20">
-        <tr>
-            <td width="33%">
-                <h3><font face="Arial">Rio de Janeiro</font></h3>
-                <p><font face="Arial">Avenida Presidente Vargas, 5000</font></p>
-                <p><font face="Arial">10º Andar</font></p>
-                <p><font face="Arial">Centro</font></p>
-                <p><font face="Arial">(21) 3333-3333</font></p>
-            </td>
-        
-        
-            <td width="33%">
-                <h3><font face="Arial">São Paulo</font></h3>
-                <p><font face="Arial">Avenida Paulista, 1010</font></p>
-                <p><font face="Arial">25º Andar</font></p>
-                <p><font face="Arial">Centro</font></p>
-                <p><font face="Arial">(11) 2222-2222</font></p>
-            </td>
-     
-            <td width="33%">
-            <h3><font face="Arial">Porto Alegre</font></h3>
-            <p><font face="Arial">Avenida Farrupilha, 700</font></p>
-            <p><font face="Arial">Conjunto 1</font></p>
-            <p><font face="Arial">Centro</font></p>
-            <p><font face="Arial">(41) 7777-7777</font></p>
-            </td>
-        </tr>
-    </table>
-    <center>
-        <span>
-            <p>
-            <font face="Arial" color="red">Formas de Pagamento</font>
-            </p>
-            <img width="20%" src="./imagens/formaspagamento.png" alt="Formas e Pagamento">
-        </span>
-    </center>
-        <center><font face="Arial" size="2">&copy; All Rights Reserved </font></center>
+        </div>
+    </nav>
+</table>
+    <div class="titulo-fundo">
+        <h1>Pacotes Promocionais</h1>
+    </div>
+    <div class="sub">
+        <span>Escolha aqui seu pacote de viagem com um preço especial</span>
+    </div>
+    <table align="center" border="0" width="100%" cellpadding="">
+        <!--InicioDestinos-->
+        <h3>Destinos Nacionais</h3>
+        <hr>
+        <div>
+            <tr>
+                <td width="20%" align="center" valign="">
+                    <img class="border-img" src="./imagens/destinos/errejota.jpg">
+                    <br>
+                    <span size="5"><strong>Rio de Janeiro</span></strong><br>
+                    <span size="2">A Cidade Maravilhosa!<br>de <del>R$ 3.295,00</del></span><br>
+                    <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                    <hr>
+                </td>
+                <td width="20%" align="center" valign="">
+                    <img class="border-img" src="./imagens/destinos/floripa.jpg">
+                    <br>
+                    <span size="5"><strong>Florianópolis</span></strong><br>
+                    <span size="2">Venha para a Ilha da Magia<br>de <del>R$ 3.295,00</del></span><br>
+                    <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                    <hr>
+                </td>
+                <td width="20%" align="center" valign="">
+                    <img class="border-img" src="./imagens/destinos/bsb.jpg">
+                    <br>
+                    <span size="5"><strong>Brasília</span></strong><br>
+                    <span size="2">A Capital Federal<br>de <del>R$ 3.295,00</del></span><br>
+                    <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                    <hr>
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td width="20%" align="center" valign="">
+                    <img class="border-img" src="./imagens/destinos/natal.jpg">
+                    <br>
+                    <span size="5"><strong>Natal</span></strong><br>
+                    <span size="2">Conheça estas lindas praias<br>de <del>R$ 3.295,00</del></span><br>
+                    <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                    <hr>
+                </td>
+                <td width="20%" align="center" valign="">
+                    <img class="border-img" src="./imagens/destinos/fortal.jpg">
+                    <br>
+                    <span size="5"><strong>Fortaleza</span></strong><br>
+                    <span size="2">Se encante com Fortal<br>de <del>R$ 3.295,00</del></span><br>
+                    <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                    <hr>
+                </td>
+                <td width="20%" align="center" valign="">
+                    <img class="border-img" src="./imagens/destinos/salvador.jpg">
+                    <br>
+                    <span size="5"><strong>Salvador</span></strong><br>
+                    <span size="2">A Capital Federal<br>de <del>R$ 3.295,00</del></span><br>
+                    <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                    <hr>
+                </td>
+            </tr>
+        </div>
+        </table>
+        <table align="center" border="0" width="100%"> 
+            <h3>Destinos Internacionais</h3>
+            <hr>
+            <div>
+                <tr>
+                    <td width="20%" align="center" valign="">
+                        <img class="border-img" src="./imagens/destinos/ny.jpg">
+                        <br>
+                        <span size="5"><strong>Nova Yorque</span></strong><br>
+                        <span size="2">A cidade que nunca dorme<br>de <del>R$ 3.295,00</del></span><br>
+                        <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                        <hr>
+                    </td>
+                    <td width="20%" align="center" valign="">
+                        <img class="border-img" src="./imagens/destinos/dubai.jpg">
+                        <br>
+                        <span size="5"><strong>Dubai</span></strong><br>
+                        <span size="2">Conheça os Emirados Árabes<br>de <del>R$ 3.295,00</del></span><br>
+                        <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                        <hr>
+                    </td>
+                    <td width="20%" align="center" valign="">
+                        <img class="border-img" src="./imagens/destinos/mexicocity.jpg">
+                        <br>
+                        <span size="5"><strong>Cidade do Méximo</span></strong><br>
+                        <span size="2">Origem do Império Asteca<br>de <del>R$ 3.295,00</del></span><br>
+                        <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                        <hr>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td width="20%" align="center" valign="">
+                        <img class="border-img" src="./imagens/destinos/nz.jpg">
+                        <br>
+                        <span size="5"><strong>Wellington</span></strong><br>
+                        <span size="2">Nova Zelândia<br>de <del>R$ 3.295,00</del></span><br>
+                        <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                        <hr>
+                    </td>
+                    <td width="20%" align="center" valign="">
+                        <img class="border-img" src="./imagens/destinos/lisbon.jpg">
+                        <br>
+                        <span size="5"><strong>Lisboa</span></strong><br>
+                        <span size="2">Tradicional cidade europeia<br>de <del>R$ 3.295,00</del></span><br>
+                        <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                        <hr>
+                    </td>
+                    <td width="20%" align="center" valign="">
+                        <img class="border-img" src="./imagens/destinos/paris.jpg">
+                        <br>
+                        <span size="5"><strong>Paris</span></strong><br>
+                        <span size="2">A Cidade Luz<br>de <del>R$ 3.295,00</del></span><br>
+                        <span size="4">Por <strong class="val-oferta">R$ 2.950,00</strong></span><br>
+                        <hr>
+                    </td>
+                </tr>
+            </div>
+        </table>
+        <div class="info-fim">
+            <div class="fim-pt1">
+                <h6><strong>Contato</strong></h6>
+                <p>Av. Presidente Vargas - Nº 1253 -
+                    Centro - Rio de Janeiro - RJ</p>
+                <p>CEP: 88790000 <br>
+                    CNPJ: 11.222.333/0001-99</p>
+                <a href="mailto:viajaki@viajaki.com.br">viajaki@gviajaki.com.br</a>
+                <p> (21) 2222-2345<br>
+                    (21) 99999-9999</p>
+            </div>
+            <div class="fim-pt2">
+                <h6><strong>Newsletter</strong></h6>
+                <label>Receba ofertas exclusivas por email:</label>
+                <div class="botaoseta">
+                <input class="inpt" type="email" placeholder="Digite seu e-mail"><button class="btn-env" type="submit">
+                    <i class="bi bi-arrow-right-short seta"></i></button>
+                    </div>
+            </div>
+        </div>
+        <footer>
+            <span>
+                <p class="formasdepagamento">Formas de Pagamento</p>
+                <img width="20%" src="./imagens/formaspagamento.png" alt="Formas e Pagamento">
+            </span>
+        </footer>
+        <div class="copyright">
+            <span face="Arial" size="2"><strong>ViajaKi &copy; Todos os direitos reservados</strong></span>
+        </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
+
 </html>
