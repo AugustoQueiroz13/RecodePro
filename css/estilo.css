@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.logo {
+    width: 120px;
+}
+
+.titulo-fundo
+{
+    background-color: #1577fd;
+    color: #ffff;
+    height: 55px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.sub
+{
+    background-color: #ff6803;
+    color: #ffff;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar li {
+    padding-left: 30px;
+}
+
+.navbar {
+    background-color: #ffff;
+}
+
+.form-control {
+    width: 500px;
+}
+
+.btn-search {
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+.btn-search:hover {
+    background-color: rgb(153, 153, 238);
+
+}
+
+h1,
+h2,
+.sub {
+    text-align: center;
+}
+
+.cards-home {
+    display: flex;
+    height: 25rem;
+
+}
+
+.card {
+    align-items: center;
+    margin: auto;
+    height: 80%;
+}
+
+.card img {
+    height: 50%;
+    width: 100%;
+}
+
+.btn-primary {
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+footer,
+.copyright {
+    text-align: center;
+}
+
+.info-fim {
+    background-color: #1577fd;
+    display: flex;
+    color: #ffff;
+    margin: 15px;
+}
+
+.fim-pt1 {
+    padding: 30px;
+    margin-left: 100px;
+    font-size: small;
+}
+
+.fim-pt2 {
+    padding: 60px;
+    align-items: right;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.inpt {
+    width: 60%;
+    box-shadow: 6px 4px 6px;
+}
+
+.btn-env {
+    box-shadow: 6px 4px 6px;
+}
+
+.formasdepagamento {
+    color: #1577fd;
+    margin-bottom: 0;
+}
