@@ -182,11 +182,11 @@ public List<cliente> getcliente() {
     
     return cliente;
 }
-public usuario getUsuarioById(int id) {
+public cliente getClienteById(int id) {
 	
     String sql = "SELECT * FROM cliente AS \n"
     		+ "JOIN usuario AS e ON l.id_usuario= e.id_usuario\n"
-    		+ "WHERE id_usuario = ?";
+    		+ "WHERE id_cliente = ?";
     cliente clientes= new cliente ();
     usuario usuario = new usuario();
     
@@ -237,6 +237,6 @@ public usuario getUsuarioById(int id) {
         }
     }
     
-    return usuario;
+    return clientes;
 }
 }
